@@ -1,15 +1,15 @@
 spring:
   profiles:
     active:
-      - dev
+    - dev
 ---
 spring:
   profiles: dev
-    application:
-      name: config-server-dev
+  application:
+    name: config-server-dev
 ---
 spring:
   profiles: test
-    application:
-      name: config-server-test
+  application:
+    name: config-server-test
 
